@@ -1,0 +1,26 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+.navbar{
+  background-color: #311f07;
+  font-size: 130%;
+}
+
+.navbar-inverse{
+    background-color: #311f07;
+    padding: 10px;
+}
+
+.navbar-static{
+    background-color: #311f07;
+    padding: 20px;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+    
+}
+
+.navbar-nav > li > a{
+  line-height: 35px;
+}
