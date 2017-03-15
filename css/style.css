@@ -1,6 +1,53 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+/* Developed by lirs on 2017 */
+
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+#myslider{
+  height: 100%;
+}
+
+#slider { 
+	overflow: hidden;
+	height: 100%;
+	background-repeat:no-repeat;
+	background-position:center center;
+    background-size: 100%;
+	background-image: url(img/panama/IguanasInPanama4.jpg);
+}
+
+
+#slider figure img 	{	
+	width: 20%; 
+	height: 100%;
+	float: left; 
+	margin-bottom:0px;
+	filter: alpha(opacity=40);
+	opacity:0.7;
+}
+
+
+
+#slider figure { 
+	position: relative;
+	width: 500%;
+	height:100%;
+	margin: 0;
+	left: 0;
+	animation: 45s slidy;
+	animation-iteration-count: infinite;
+}
+
 
 .navbar{
   background-color: #311f07;
@@ -23,4 +70,11 @@
 
 .navbar-nav > li > a{
   line-height: 35px;
+}
+
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width:100%;
+  height:800px;
 }
