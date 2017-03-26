@@ -168,6 +168,11 @@ hr.featurette-divider.center{
   background: #e95950;
   color: white;
 }
+.centered{
+  margin: auto 0px;
+  width: 80%;
+  padding-top: 150px;
+}
 
 .fa-pinterest {
   background: #cb2027;
