@@ -191,4 +191,12 @@ hr.featurette-divider.center{
   width: 50px;
 }
 
-/*end social
+/*end social*/
+
+.content{
+  margin:150px;
+  padding: 50px;
+  position: relative;
+  width: 80%;
+  font-size: 18px;
+}
