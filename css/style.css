@@ -212,9 +212,9 @@ hr.featurette-divider.center{
 .content{
   position: relative;
   text-align: justify;
-  padding: 2%;;
+  padding: 50px;
   width: 80%;
-  margin-right: 20%;
+  margin-right: 10%;
   margin-left: 10%;
 }
 
