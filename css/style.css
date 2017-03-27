@@ -13,6 +13,10 @@
 100% { left: -400%; }
 }
 
+img {
+    width: 100%;
+}
+
 #myCarousel{
   height: 100%;
 }
@@ -83,6 +87,10 @@
 .carousel-inner > .item > a > img {
   width:100%;
   height:800px;
+}
+
+.carousel-inner{
+  height: 750px;
 }
 
 li.brand-font{
@@ -220,8 +228,57 @@ hr.featurette-divider.center{
   margin-left: 10%;
 }
 
-.carousel-inner{
-  height: 800px;
+.content-container{
+  min-width:  1000px;
+  height: 500px;
+  position: relative;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-size: 13px;
+  font-size: 18px;
+}
+
+
+blockquote span{
+  font-family: Brush Script MT;
+  font-size: 250%;
+  color: white;
+  font: bold 45px;
+  
+}
+
+.content-inside-image{
+  position:absolute;
+  width: 50%;
+  padding: 5%;
+  float: left;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+
+.content-image-left{
+  position:relative;
+  float: left;
+  width: 50%;
+  padding: 7%;
+}
+
+.content-image-right{
+  position:relative;
+  float: right;
+  width: 30%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  }
+
+.content-image-right img{
+  width: 100%;
+}
+
+.image-center{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
 }
 
 /*paralax-------------------------------*/
@@ -262,7 +319,6 @@ hr.featurette-divider.center{
     min-height: 700px; 
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -270,7 +326,7 @@ hr.featurette-divider.center{
 
 .parallax3 {
     /* The image used */
-    background-image: url(../img/panama/iguanasInPanama2.jpg);
+    background-image: url(../img/panama/iguanasInPanama10.jpg);
 
     /* Set a specific height */
     min-height: 700px; 
