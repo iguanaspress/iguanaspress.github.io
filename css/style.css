@@ -195,14 +195,16 @@ hr.featurette-divider.center{
 
 /*content-------------------------------*/
 
-.content{
-  margin:250px;
-  margin-bottom:80px;
-  margin-top:150px;
-  padding: 0px;
+.contenedor{
   position: relative;
-  width: 70%;
+  width: 100%;
   font-size: 18px;
+}
+
+.content{
+  position: relative;
+  text-align: justify;
+  padding: 150px;
 }
 
 .carousel-inner{
