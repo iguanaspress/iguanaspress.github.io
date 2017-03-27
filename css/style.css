@@ -120,6 +120,7 @@ h2.popular {
   text-align: center;
   font-size: 35px;
   font-family: Brush Script MT;
+  margin-bottom: 25px;
 }
 
 
@@ -207,6 +208,7 @@ hr.featurette-divider.center{
   position: relative;
   width: 100%;
   font-size: 18px;
+  margin-top: 0px;
 }
 
 .content{
@@ -219,7 +221,7 @@ hr.featurette-divider.center{
 }
 
 .carousel-inner{
-  height: 700px;
+  height: 800px;
 }
 
 /*paralax-------------------------------*/
@@ -280,8 +282,17 @@ hr.featurette-divider.center{
     background-size: cover;
 }
 
+/*contactus-------------------------------*/
 
-/*carousell-------------------------------
+.contactus{
+  text-align: center;
+}
+
+/*carousell-------------------------------*/
+.carousel{
+  margin-bottom: 10px;
+}
+/*
 * {box-sizing:border-box}
 
 .slideshow-container {
