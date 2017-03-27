@@ -1,6 +1,6 @@
 /* Developed by lirs on 2017 */
 
-
+/*
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -12,6 +12,7 @@
 95% { left: -300%; }
 100% { left: -400%; }
 }
+*/
 
 #myCarousel{
   height: 100%;
@@ -185,5 +186,12 @@ hr.featurette-divider.center{
   top: 200px;
   width: 50px;
 }
+/*end social*/
 
-/*end social
+@media screen and (min-width: 1350px) {
+.carousel-inner{
+  min-height: 1024px;
+  opacity: 0.8;
+}
+
+}
