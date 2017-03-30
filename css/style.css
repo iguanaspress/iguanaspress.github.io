@@ -223,9 +223,9 @@ hr.featurette-divider.center{
   position: relative;
   text-align: justify;
   padding: 50px;
-  width: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
+  width: 60%;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .content-container{
@@ -244,6 +244,7 @@ blockquote span{
   font-size: 250%;
   color: white;
   font: bold 45px;
+  background-color: rgba(0,0,0,0.5);
   
 }
 
@@ -278,10 +279,11 @@ blockquote span{
 .image-center{
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
+  padding-top: 5%;
 }
 
-/*paralax-------------------------------*/
+/*parallax-------------------------------*/
 
 .parallax {
     /* The image used */
@@ -326,7 +328,7 @@ blockquote span{
 
 .parallax3 {
     /* The image used */
-    background-image: url(../img/panama/iguanasInPanama10.jpg);
+    background-image: url(../img/panama/iguanasInPanama2.jpg);
 
     /* Set a specific height */
     min-height: 700px; 
