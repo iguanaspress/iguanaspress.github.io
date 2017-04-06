@@ -1,6 +1,8 @@
 /* Developed by lirs on 2017 */
 
+/* General configuration*/
 
+/*draft
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -11,11 +13,14 @@
 75% { left: -300%; }
 95% { left: -300%; }
 100% { left: -400%; }
+}*/
+
+img{
+  max-width: 100%;
 }
 
-img {
-    width: 100%;
-}
+
+
 
 #myCarousel{
   height: 100%;
@@ -55,28 +60,28 @@ img {
 
 
 .navbar {
-  background-color: rgb(49,31,7);
+  /*background-color: rgb(49,31,7);*/
   font-size: 130%;
 }
 
 .navbar .navbar-inverse{
-  background-color: rgb(49,31,7);
+  /*background-color: rgb(49,31,7);*/
   font-size: 130%;
 }
 
 .no-border .navbar{
-  background-color: rgb(49,31,7);
+  /*background-color: rgb(49,31,7);*/
   font-size: 130%;
   border-radius: 0px;
 
 }
 
 .navbar-static{
-  background-color: rgb(49,31,7);
+  /*background-color: rgb(49,31,7);*/
 }
 
 .navbar-inverse .navbar-nav > .active > a{
-  background-color: rgba(4,3,0,.6)
+  /*background-color: rgba(4,3,0,.6)*/
 }
 
 .navbar-nav > li > a{
@@ -137,14 +142,47 @@ hr.featurette-divider.center{
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+  font: normal normal normal 14px/1 FontAwesome;
 }
 
-.fa:hover {
+.fa-facebook:hover {
    text-decoration: none;  
     opacity: 0.7;
 	color: white;
 	position: relative;
 	left: 5%;
+}
+
+.fa-twitter:hover {
+   text-decoration: none;  
+    opacity: 0.7;
+	color: white;
+	position: relative;
+	left: 5%;
+}
+
+.fa-google:hover {
+   text-decoration: none;  
+    opacity: 0.7;
+	color: white;
+	position: relative;
+	left: 5%;
+}
+
+.fa-instagram:hover {
+   text-decoration: none;  
+    opacity: 0.7;
+	color: white;
+	position: relative;
+	left: 5%;
+}
+
+.fa-envelope:hover{
+    text-decoration: none;  
+    opacity: 0.7;
+	color: white;
+	position: relative;
+	left: 5%; 
 }
 
 .fa-facebook {
@@ -338,6 +376,53 @@ blockquote span{
 }
 
 /*carousell-------------------------------*/
+
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+  max-width: none;
+}
+
+.control{
+    position: absolute;
+    top: 50%;
+}
+
+
+.right {
+    right: 5%;
+}
+
+.left{
+    left: 5%;
+}
+
+
+i.fa-chevron-circle-right{
+    font-size: 28px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+i.fa-chevron-circle-right:hover{
+    opacity: 1;
+}
+
+
+i.fa-chevron-circle-left{
+    font-size: 28px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+i.fa-chevron-circle-left:hover{
+    opacity: 1;
+}
+
+
 .carousel{
   margin-bottom: 10px;
 }
@@ -364,6 +449,8 @@ a.carousel-control{
 .glyphicon-chevron-right:before{
     font-size: 20px;
 }
+
+
 
 /*
 * {box-sizing:border-box}
