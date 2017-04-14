@@ -15,6 +15,10 @@
 100% { left: -400%; }
 }*/
 
+body{
+  background-color: #F4F4F4;
+}
+
 img{
   max-width: 100%;
 }
@@ -60,14 +64,23 @@ img{
 
 
 .navbar {
-  /*background-color: rgb(49,31,7);*/
+  /*background-color: #35B898;*/
+  /*background-color: #FEFF8E;*/
+  background-color: #fff;
+  height: 85px;
   font-size: 130%;
 }
 
 .navbar .navbar-inverse{
   /*background-color: rgb(49,31,7);*/
   font-size: 130%;
+  background-color: white;
 }
+
+.navbar-inverse{
+ border-bottom: 1px solid #ebebeb;
+}
+
 
 .no-border .navbar{
   /*background-color: rgb(49,31,7);*/
@@ -76,22 +89,33 @@ img{
 
 }
 
+/*
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{
+  background-color: #ffc88e;
+  color:black;
+}
+*/
 .navbar-static{
   /*background-color: rgb(49,31,7);*/
 }
 
 .navbar-inverse .navbar-nav > .active > a{
   /*background-color: rgba(4,3,0,.6)*/
+  
 }
 
 .navbar-nav > li > a{
-  line-height: 35px;
+  line-height: 55px;
 }
 
 
 li.brand-font{
   font-family: Brush Script MT;
   font-size: 150%;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+  color: blue;
 }
 
 .brand-font h1, h2{
@@ -104,16 +128,54 @@ li.brand-font{
   font-size: 250%;
 }
 
-.iguanas:after{
-    background-image: url('img/logo.PNG');
+
+.brand-icon{
+  margin-right: 30px;
+}
+
+.brand-icon:after{
+  background-image: url('../img/iguanas/iguanasHeader1.png');
+  background-size: 100%;
+  display: block;
+  width: 200px;
+  height: 40px;
+  content:"";
+  background-repeat: no-repeat;
+  margin-top:10px;
+  margin-left:0px;
+  cursor: pointer;
+}
+
+.iguanas{
+}
+
+a.iguanas:hover::after{
+    /*background-image: url('../img/iguanas/iconoListo.png');*/
+	background-image: url('../img/iguanas/blancoynegroTerminadoColores.png');	
     background-size: 100%;
     display: block;
-    width: 50px;
-    height: 80px;
+    width: 162px;
+    height: 140px;
     content:"";
     background-repeat: no-repeat;
-    margin-top: -5px;
+    margin-top:-5px;
+	margin-left:-30px;
+	margin-right:-25px;
 }
+
+.iguanas:after{
+    background-image: url('../img/iguanas/blancoynegroTerminadoColores.png');
+	width: 132px;
+    height: 90px;
+    background-repeat: no-repeat;
+	background-size: 100%;
+    margin-top:-5px;
+	margin-left:-30px;
+	margin-right:-25px;
+	content:"";
+	display: block;
+}
+
 
 .carousel .item {
     height: 560px;
