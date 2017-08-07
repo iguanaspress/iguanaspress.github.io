@@ -203,11 +203,10 @@ li.brand-font{
 .iguanas{
 }
 
-a.iguanas:hover::after{
+.iguanas:hover::after{
     /*background-image: url('../img/iguanas/iconoListo.png');*/
 	background-image: url('../img/iguanas/blancoynegroTerminadoColores.png');	
     background-size: 100%;
-    display: block;
     width: 162px;
     height: 140px;
     content:"";
@@ -216,7 +215,11 @@ a.iguanas:hover::after{
 	margin-left:-30px;
 	margin-right:-25px;
    -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);	
+   -moz-transform: rotate(360deg);
+   -o-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   transform: rotate(360deg);
+   cursor: pointer;
 }
 
 .iguanas:after{
@@ -231,7 +234,8 @@ a.iguanas:hover::after{
 	content:"";
 	display: block;
     -webkit-transition: -webkit-transform 2.0s ease-in-out;
-		  transition:         transform 2.0s ease-in-out;	
+	transition:transform 2.0s ease-in-out;
+
 }
 
 
@@ -241,7 +245,7 @@ a.iguanas:hover::after{
 
 .titulo{
 	position:relative;
-	top:170px;
+	top:140px;
 	z-index:1;
 	text-align:center;
 	padding:10px;
@@ -385,6 +389,20 @@ hr.featurette-divider.center{
 }
 
 /*end social*/
+
+/*Featurettes -------------------------------*/
+
+.responsive-div{
+  width: 80%;
+}
+
+.responsive-div-lef{
+  margin-right: 5px;  
+}
+
+.responsive-div-right{
+  margin-left: 5px;  
+}
 
 /*content-------------------------------*/
 
@@ -577,7 +595,7 @@ i.fa-chevron-circle-left:hover{
 a.carousel-control{
 }
 
-
+	
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   width:100%;
@@ -597,7 +615,79 @@ a.carousel-control{
     font-size: 20px;
 }
 
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
 
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+	}
 
 /*
 * {box-sizing:border-box}
