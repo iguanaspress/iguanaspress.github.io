@@ -646,11 +646,11 @@ a.carousel-control{
 
 .social{
   position: static;
-  margin-left: 20%;
+  margin-left: 25%;
   top:auto;
   bottom: 0;
   width: 60%;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 #myCarousel{
