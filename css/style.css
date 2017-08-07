@@ -209,7 +209,7 @@ li.brand-font{
 
 .iguanas:hover::after{
     /*background-image: url('../img/iguanas/iconoListo.png');*/
-	background-image: url('../img/iguanas/blancoynegroTerminadoColores.png');	
+	background-image: url('../img/iguanas/iguanasPressIcon2.png');	
     background-size: 100%;
     width: 162px;
     height: 140px;
@@ -227,7 +227,7 @@ li.brand-font{
 }
 
 .iguanas:after{
-    background-image: url('../img/iguanas/blancoynegroTerminadoColores.png');
+    background-image: url('../img/iguanas/iguanasPressIcon2.png');
 	width: 110px;
     height: 85px;
     background-repeat: no-repeat;
