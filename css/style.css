@@ -619,13 +619,8 @@ a.carousel-control{
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media only screen and (max-device-width: 979px){
 
-
-}
-
-
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
 #myCarousel{
   display:none;
@@ -716,6 +711,26 @@ ul.navbar-nav{
 }
 
 }
+
+@media screen and (max-width: 320px){
+
+
+.brand-icon-toggle::after{
+	width: 180px;
+	margin-top: 5px;
+}
+
+#bs-example-navbar-collapse-1{
+	width: 400px;
+}
+
+.titulo h1{
+    font-size: 18px;
+	text-align: center;
+}
+
+}
+
 
 /*
 * {box-sizing:border-box}
