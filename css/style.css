@@ -183,6 +183,7 @@ li.brand-font{
 .brand-font h1, h2{
   font-family: Pacifico, Brush Script MT;
   font-size: 350%;
+  margin-bottom: 25px;
 }
 
 .brand-font h3{
@@ -433,9 +434,14 @@ hr.featurette-divider.center{
   font-size: 18px;
 }
 
+blockquote{
+  font-family: Pacifico, Brush Script MT;
+  padding: 10px;
+  margin: 10px;
+}
 
 blockquote span{
-  font-family: Brush Script MT;
+  font-family: Pacifico, Brush Script MT;
   font-size: 250%;
   color: white;
   font: bold 45px;
@@ -482,7 +488,7 @@ blockquote span{
 
 .parallax {
     /* The image used */
-    background-image: url(../img/panama/IguanasInPanama4.jpg);
+    background-image: url(../img/panama/iguanasInPanama4.jpg);
 
     /* Set a specific height */
     min-height: 700px; 
@@ -710,6 +716,20 @@ ul.navbar-nav{
   padding:2px;
 }
 
+.parallax {
+    min-height: 300px; 
+}
+
+blockquote{
+  width: 200px;
+  margin: 2px;
+}
+
+blockquote span{
+  font-size: 20px;
+}
+
+
 }
 
 @media screen and (max-width: 320px){
@@ -727,6 +747,11 @@ ul.navbar-nav{
 .titulo h1{
     font-size: 18px;
 	text-align: center;
+}
+
+
+.parallax3 {
+    min-height: 350px; 
 }
 
 }
