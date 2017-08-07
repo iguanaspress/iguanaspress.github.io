@@ -45,6 +45,7 @@ body{
   background-color: #F4F4F4;
 }
 
+
 #myCarousel{
   height: 100%;
 }
@@ -84,6 +85,7 @@ body{
 img{
   max-width: 100%;
 }
+
 
 .myPhoto{
   display: none;
@@ -386,7 +388,6 @@ hr.featurette-divider.center{
 .social{
   position: fixed;
   left: 20px;
-  top: 200px;
   width: 50px;
 }
 
@@ -418,7 +419,10 @@ hr.featurette-divider.center{
 .content{
   position: relative;
   text-align: justify;
-  padding: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
   width: 60%;
   margin-right: 20%;
   margin-left: 20%;
@@ -624,8 +628,16 @@ a.carousel-control{
     font-size: 20px;
 }
 
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+  .social{
+	top:200px;
+  }
+}
 
 
 @media screen and (max-width: 767px) {
@@ -686,10 +698,6 @@ ul.navbar-nav{
   margin-top: 50px;
 }
 
-.social{
-  display: none;
-}
-
 .titulo{
   font-size: 40%;
   z-index: 0;
@@ -748,10 +756,24 @@ blockquote span{
   width: 80%;
 }
 
+/*social*/
+
+.social{
+  position: absolute;
+  left: 20%;
+  top:4300px;
+  width: 60%;
+  padding-bottom: 50px;
+}
+
 }
 
 @media screen and (max-width: 320px){
 
+.social{
+  top:4250px;
+  padding-bottom: 50px;
+}
 
 .brand-icon-toggle::after{
 	width: 180px;
@@ -768,9 +790,6 @@ blockquote span{
 }
 
 
-.parallax3 {
-    min-height: 350px; 
-}
 
 }
 
