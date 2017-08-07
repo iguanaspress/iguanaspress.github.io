@@ -489,10 +489,11 @@ blockquote span{
 
 .parallax {
     /* The image used */
-    background-image: url(../img/panama/iguanasInPanama14.jpg);
+    background-image: url(../img/panama/iguanasInPanama4.jpg);
 
     /* Set a specific height */
-    min-height: 700px; 
+    min-height: 700px;
+	width: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -718,11 +719,23 @@ ul.navbar-nav{
 }
 
 .parallax {
-    min-height: 300px; 
+    min-height: 350px; 
 }
 
+.parallax1 {
+    min-height: 350px; 
+}
+
+.parallax2 {
+    min-height: 350px; 
+}
+
+.parallax3 {
+    min-height: 350px; 
+}
+
+
 blockquote{
-  width: 200px;
   margin: 2px;
 }
 
@@ -730,6 +743,9 @@ blockquote span{
   font-size: 20px;
 }
 
+.content-inside-image{
+  width: 80%;
+}
 
 }
 
