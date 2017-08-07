@@ -49,6 +49,7 @@ body{
   height: 100%;
 }
 
+
 #slider { 
 	overflow: hidden;
 	height: 100%;
@@ -82,6 +83,12 @@ body{
 
 img{
   max-width: 100%;
+}
+
+.myPhoto{
+  display: none;
+  height: 250px;
+  width: 100%;
 }
 
 .featurette-image{
@@ -184,10 +191,7 @@ li.brand-font{
 }
 
 
-.brand-icon{
-}
-
-.brand-icon:after{
+.brand-icon::after{
   background-image: url('../img/iguanas/iguanasHeader1.png');
   background-size: 100%;
   display: block;
@@ -198,9 +202,6 @@ li.brand-font{
   margin-top:3%;
   margin-left:10px;
   cursor: pointer;
-}
-
-.iguanas{
 }
 
 .iguanas:hover::after{
@@ -615,79 +616,106 @@ a.carousel-control{
     font-size: 20px;
 }
 
-    /* RESPONSIVE CSS
-    -------------------------------------------------- */
+/* RESPONSIVE CSS
+-------------------------------------------------- */
 
-    @media (max-width: 979px) {
-
-      .container.navbar-wrapper {
-        margin-bottom: 0;
-        width: auto;
-      }
-      .navbar-inner {
-        border-radius: 0;
-        margin: -20px 0;
-      }
-
-      .carousel .item {
-        height: 500px;
-      }
-      .carousel img {
-        width: auto;
-        height: 500px;
-      }
-
-      .featurette {
-        height: auto;
-        padding: 0;
-      }
-    }
+@media only screen and (max-device-width: 979px){
 
 
-    @media (max-width: 767px) {
+}
 
-      .navbar-inner {
-        margin: -20px;
-      }
 
-      .carousel {
-        margin-left: -20px;
-        margin-right: -20px;
-      }
-      .carousel .container {
+@media only screen and (max-width: 767px) {
 
-      }
-      .carousel .item {
-        height: 300px;
-      }
-      .carousel img {
-        height: 300px;
-      }
-      .carousel-caption {
-        width: 65%;
-        padding: 0 70px;
-        margin-top: 100px;
-      }
-      .carousel-caption h1 {
-        font-size: 30px;
-      }
-      .carousel-caption .lead,
-      .carousel-caption .btn {
-        font-size: 18px;
-      }
+#myCarousel{
+  display:none;
+}
 
-      .marketing .span4 + .span4 {
-        margin-top: 40px;
-      }
+.iguanas:after{
+  display:none;
+}
 
-      .featurette-heading {
-        font-size: 30px;
-      }
-      .featurette .lead {
-        font-size: 18px;
-        line-height: 1.5;
-      }
-	}
+.navbar-toggle{
+  color:black;
+  background-color: black;
+  float:left;
+  margin-top: 25px;
+}
+
+.navbar-collapse{
+    background-color: black;
+}
+
+#bs-example-navbar-collapse-1{
+	width: 400px;
+	margin: -45px;
+}
+
+ul.navbar-nav{
+  margin-left: 5px;
+}
+
+.brand-icon-toggle{
+  position:relative;
+  float:left;
+  margin-top:8%;
+  margin-left:10px;
+}
+
+.brand-icon-toggle::after{
+    background-image: url('../img/iguanas/iguanasHeader1.png');
+	background-size: 100%;
+	display: block;
+	width: 210px;
+	height: 52px;
+	content:"";
+	background-repeat: no-repeat;
+	cursor: pointer;	
+}
+
+.brand-icon{
+  display: none;
+}
+
+.myPhoto{
+  display: block;
+  margin-top: 50px;
+}
+
+.social{
+  display: none;
+}
+
+.titulo{
+  font-size: 40%;
+  z-index: 0;
+  position: absolute;
+  margin-top: 5px;
+  
+}
+
+.contenedor{
+  position: relative;
+  width: 100%;
+  font-size: 100%;
+  margin-top: 0px;
+}
+
+.content{
+  position: relative;
+  text-align: justify;
+  padding: 10px;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.featurette-image{
+  max-width: 210px;
+  padding:2px;
+}
+
+}
 
 /*
 * {box-sizing:border-box}
