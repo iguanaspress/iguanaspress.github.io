@@ -650,7 +650,7 @@ a.carousel-control{
 }
 
 #bs-example-navbar-collapse-1{
-	width: 400px;
+	width: 450px;
 	margin: -45px;
 }
 
@@ -673,7 +673,8 @@ ul.navbar-nav{
 	height: 52px;
 	content:"";
 	background-repeat: no-repeat;
-	cursor: pointer;	
+	cursor: pointer;
+	z-index:3;
 }
 
 .brand-icon{
@@ -758,7 +759,7 @@ blockquote span{
 }
 
 #bs-example-navbar-collapse-1{
-	width: 400px;
+	width: 450px;
 }
 
 .titulo h1{
