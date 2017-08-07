@@ -438,6 +438,7 @@ blockquote{
   font-family: Pacifico, Brush Script MT;
   padding: 10px;
   margin: 10px;
+  font-size: 125%;
 }
 
 blockquote span{
@@ -488,7 +489,7 @@ blockquote span{
 
 .parallax {
     /* The image used */
-    background-image: url(../img/panama/iguanasInPanama10.jpg);
+    background-image: url(../img/panama/iguanasInPanama14.jpg);
 
     /* Set a specific height */
     min-height: 700px; 
